@@ -22,10 +22,10 @@ switch(i){
     case 'name':
         randBird.push(`Your random bird is:"${birds[i][randID]}"`)
         break
-    case 'coolfact1':
+    case 'interestingFact1':
         randBird.push(`Cool facts about birds: "${birds[i][randID]}"`)
         break
-    case 'coolfact2':
+    case 'interestingFact2':
         randBird.push(`Cool facts about birds: "${birds[i][randID]}"`)
         break
     default:
