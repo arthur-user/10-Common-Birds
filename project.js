@@ -1,7 +1,7 @@
-const randomNumber = (num) => {return Math.floor(Math.random()*num)}
+const randomNumber = (num) => {return Math.floor(Math.random()*num)} // Randomly generates a number from 0 to num - 1
 
 
-
+//array storing info
 const birds = {name:['American Robin','Northern Mockingbird','American Goldfinch','White-breasted Nuthatch','Blue Jay','House Finch'],
  interestingFact1:['Hummingbirds can fly backward and hover in place',
 'Crows hold funerals','Some birds cover themselves in ants',
@@ -11,14 +11,14 @@ interestingFact2:['Some birds can sleep while flying','The smallest bird egg bel
 'Owls can turn their heads 270 degrees','Bird eyes take up 50% of their heads'],
 
 }
-
+//array to be randomly pushed into
 let randBird = []
 
-//iterating
+//iterating over array
 for(let i in birds){
     let randID = randomNumber(birds[i].length)
 
-switch(i){
+switch(i){ //conditions
     case 'name':
         randBird.push(`Your random bird is:"${birds[i][randID]}"`)
         break
@@ -33,4 +33,4 @@ switch(i){
 }
 
 }
-
+//console.log(randBird) to test the generator
