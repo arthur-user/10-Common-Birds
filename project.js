@@ -2,7 +2,7 @@ const randomNumber = (num) => {return Math.floor(Math.random()*num)}
 
 
 
-const birds = {name:['American Robin','Northern Mockingbird','American Goldfinch','White-breasted Nuthatch','Blue Jay',],
+const birds = {name:['American Robin','Northern Mockingbird','American Goldfinch','White-breasted Nuthatch','Blue Jay','House Finch'],
  interestingFact1:['Hummingbirds can fly backward and hover in place',
 'Crows hold funerals','Some birds cover themselves in ants',
 'Owls swallow some of their food whole','Pigeons can recognize humans'],
