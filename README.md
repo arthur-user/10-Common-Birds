@@ -12,3 +12,9 @@ https://www.reconnectwithnature.org/news-events/big-features/10-mind-blowing-fac
 https://www.weareteachers.com/bird-facts/
 
 https://www.birdsandblooms.com/birding/birding-basics/common-birds-north-america/
+
+### Future work:
+
+-- Increase layer of abstraction by making an executable file for the generator
+-- add CSS
+-- add more depth by incluing more interesting facts
