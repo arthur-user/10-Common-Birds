@@ -19,4 +19,4 @@ https://www.birdsandblooms.com/birding/birding-basics/common-birds-north-america
 
 -- add CSS
 
--- add more depth by incluing more interesting facts
+-- add further depth by including more interesting facts
